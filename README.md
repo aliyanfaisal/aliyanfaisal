@@ -60,45 +60,32 @@ I build things at the intersection of **AI and real-world software** — from da
 
 ---
 
-## 🚀 Featured Projects
-
-### 🤖 [ManaJet – AI-Integrated Project Management System](https://github.com/aliyanfaisal/ManaJet)
-> Laravel · Blade · OpenAI API · MySQL
-
-A web-based project management platform built for small and mid-sized IT companies. Integrates OpenAI to auto-generate task breakdowns, development timelines, and budget estimations from project descriptions. Features role-based access, ticket management, team analytics, and real-time progress tracking.
-
----
-
-### 📊 Data Analytics Dashboard *(Government of Gilgit-Baltistan)*
-> Django · Laravel · Pandas · NumPy · MySQL
-
-An analytics platform processing 500,000+ records (2015–2024) to support public-sector planning and decision-making. Built for the Planning & Development Department, GB — digitizing paper-based workflows into centralized, queryable data systems.
-
----
-
-### 🎨 [AFB Art Generator – WordPress Plugin](https://github.com/aliyanfaisal/wordpress-animationGL-plugin)
-> PHP · WordPress · neural.love API
-
-A WordPress plugin that generates AI artwork from user-provided images and prompts via the neural.love API. Deployable on any page using the `[afb_art_generator]` shortcode, with an admin settings panel for API key and style preset management.
-
----
-
-### 🌐 AI-Integrated Web Systems *(Freelance)*
-> Laravel · Python · OpenAI · Gemini · Anthropic Claude
-
-Production-grade web applications integrating LLM APIs for automated content generation, document summarization, chatbot interfaces, and e-commerce automation (dynamic pricing, product generation, inventory recommendations).
-
----
-
-## 📈 GitHub Stats
+## 🏆 Achievements & Recognition
 
 <div align="center">
 
-![Aliyan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aliyanfaisal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aliyanfaisal&layout=compact&theme=tokyonight&hide_border=true)
+| 🥈 Fiverr Level 2 Seller | ⭐ Upwork Top Rated | 🏛️ Government Certified |
+|:---:|:---:|:---:|
+| Recognized for consistent delivery, quality, and client satisfaction on Fiverr | Achieved Top Rated status on Upwork through high-quality freelance engagements | Officially certified by the Public Sector of Pakistan for technical contributions |
 
 </div>
+
+<br/>
+
+<div align="center">
+
+![Clients](https://img.shields.io/badge/Clients_Served-200+-4A90D9?style=for-the-badge)
+![Orders](https://img.shields.io/badge/Orders_Completed-300+-1DBF73?style=for-the-badge)
+![Fiverr](https://img.shields.io/badge/Fiverr-Level_2_Seller-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)
+![Upwork](https://img.shields.io/badge/Upwork-Top_Rated-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)
+
+</div>
+
+---
+
+## 🔥 Passionate About AI
+
+I genuinely believe AI is the most transformative technology of our time — and I'm not just following the trend. From integrating LLMs into production systems to exploring applied machine learning workflows, AI sits at the core of everything I build. My goal is to bridge the gap between cutting-edge AI research and real-world systems that solve actual problems. Every project I take on is an opportunity to push that boundary further.
 
 ---
 
