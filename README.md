@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1200&color=888888&center=true&vCenter=true&width=700&lines=Building+AI-powered+systems+%7C+Laravel+%7C+Django+%7C+WordPress+%7C+PyTorch" alt="Subtitle" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1200&color=888888&center=true&vCenter=true&width=700&lines=Full-Stack+Web+Developer+%7C+Laravel+%7C+Django+%7C+WordPress;AI+Systems+Integrator+%7C+OpenAI+%7C+Gemini+%7C+Claude;Building+real-world+systems+powered+by+AI" alt="Subtitle" />
 
 <br/><br/>
 
@@ -19,15 +19,15 @@
 
 ## 👨‍💻 About Me
 
-I'm an **Applied ML & AI Systems developer** based in Pakistan with a background in full-stack web engineering and hands-on experience integrating machine learning and large language model APIs into production systems.
+I'm a **Full-Stack Developer & AI Systems Integrator** based in Pakistan. I've spent 5+ years building production-grade web systems — Laravel backends, custom WordPress solutions, RESTful APIs — and over time have gone deeper into the AI layer, integrating machine learning and LLM capabilities into the systems I build.
 
-I build things at the intersection of **AI and real-world software** — from data-driven dashboards and intelligent automation pipelines to LLM-powered web applications and custom WordPress solutions.
+My work sits at the intersection of **solid web engineering and applied AI** — not just calling APIs, but architecting systems where AI actually adds value.
 
-- 🔬 Focused on **Applied Machine Learning**, **AI Systems Integration**, and **Data-Centric Automation**
-- ⚙️ Backend-first developer — Laravel, Django, Flask, RESTful APIs
-- 🤖 Experienced integrating **OpenAI, Gemini, and Anthropic** APIs into production systems
-- 🏛️ Built data systems for the **Government of Gilgit-Baltistan** (Planning & Development Dept.)
-- 🌍 Open to **research collaborations** and **AI-focused projects**
+- 🌐 Full-stack developer — **Laravel, PHP, Django, Flask, WordPress, RESTful APIs**
+- 🤖 AI integrations — **OpenAI, Gemini, Anthropic Claude** in production web systems
+- 📊 Data systems — dashboards, pipelines, analytics for real-world decision-making
+- 🏛️ Built data infrastructure for the **Government of Gilgit-Baltistan** (P&D Dept.)
+- 🔬 Deepening expertise in **Applied Machine Learning** and data-driven automation
 
 ---
 
