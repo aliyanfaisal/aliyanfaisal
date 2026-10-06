@@ -38,17 +38,24 @@ My work sits at the intersection of **solid web engineering and applied AI**. I 
 ![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![LLM Agents](https://img.shields.io/badge/LLM_Agents-6D28D9?style=for-the-badge)
+![Function Calling](https://img.shields.io/badge/Tool_%2F_Function_Calling-0EA5E9?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-F59E0B?style=for-the-badge) 
 
 ### RAG Stack
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7B3FE4?style=for-the-badge)
 ![OpenAI](https://img.shields.io/badge/OpenAI_Embeddings-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Embedding Models](https://img.shields.io/badge/Embedding_Models-14B8A6?style=for-the-badge)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+
 
 ## 🌐 Web & Backend
 
