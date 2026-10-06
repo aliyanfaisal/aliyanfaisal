@@ -8,6 +8,7 @@
 
 <br/><br/>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-aliyanfaisal.com-4A90D9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aliyanfaisal.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aliyan-faisal-5162261b7)
 [![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://fiverr.com/aliyanfaisal)
 [![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01f763ee3322eda908)
