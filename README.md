@@ -31,41 +31,22 @@ My work sits at the intersection of **solid web engineering and applied AI**. I 
 
 ---
 
-## 🔎 Featured: Retrieval-Augmented Generation (RAG)
-
-LLMs are only as useful as the knowledge they can reach. I build RAG systems that ground model answers in **your own data** (documents, knowledge bases, product catalogs, site content), so responses are accurate, current and traceable to a source instead of guessed.
-
-```mermaid
-flowchart LR
-    A[📄 Documents<br/>PDF · Web · DB · API] --> B[✂️ Chunking<br/>+ Metadata]
-    B --> C[🧮 Embeddings]
-    C --> D[(🗄️ Vector Store)]
-    Q[💬 User Question] --> E[🔍 Retriever<br/>Hybrid: Vector + Keyword]
-    D --> E
-    E --> F[🎯 Reranker]
-    F --> G[🧠 LLM<br/>OpenAI · Claude · Gemini]
-    G --> H[✅ Grounded Answer<br/>+ Citations]
-```
-
-> 🚧 **Currently building:** a multi-provider AI content platform with a central dashboard, embeddings-based similarity and cannibalization checks, and per-task model routing with full cost logging.
-
----
-
-## 🧠 AI & Machine Learning
+## 🧠 AI Engineer & Gen AI Engineer
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 ### RAG Stack
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7B3FE4?style=for-the-badge)
 ![OpenAI](https://img.shields.io/badge/OpenAI_Embeddings-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
 
@@ -73,6 +54,8 @@ flowchart LR
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
