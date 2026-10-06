@@ -47,25 +47,14 @@ flowchart LR
     G --> H[✅ Grounded Answer<br/>+ Citations]
 ```
 
-### What I build
-
-| Layer | What it covers |
-|:---|:---|
-| **Ingestion** | Parsing PDFs, web pages, databases and APIs; cleaning and normalizing; incremental re-indexing |
-| **Chunking & metadata** | Structure-aware chunking, overlap tuning, metadata for filtering (source, date, category, tenant) |
-| **Embeddings & vector search** | Embedding model selection, vector stores, hybrid (semantic + keyword) retrieval, reranking |
-| **Generation** | Prompt design, grounded answers with citations, guardrails against unsupported claims |
-| **Routing & cost control** | Cheap models for simple steps, strong models only where needed; token and cost logging per job |
-| **Evaluation** | Retrieval quality checks, answer faithfulness, regression tests so changes don't silently break quality |
-
-### Where RAG fits in the systems I build
-
-- 💬 **Knowledge-base chatbots**: answer from your docs and cite the source
-- 🔗 **Semantic similarity & duplicate detection**: embeddings to find overlapping content before it hurts SEO
-- 🧩 **WordPress and Laravel integrations**: retrieval-backed features inside existing sites and dashboards
-- 🏢 **Multi-tenant setups**: one pipeline, separate knowledge per client or portal
-
 > 🚧 **Currently building:** a multi-provider AI content platform with a central dashboard, embeddings-based similarity and cannibalization checks, and per-task model routing with full cost logging.
+
+---
+
+## 🧠 AI & Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ### RAG Stack
 
@@ -79,17 +68,6 @@ flowchart LR
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-
----
-
-## 🧠 AI & Machine Learning
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ## 🌐 Web & Backend
 
