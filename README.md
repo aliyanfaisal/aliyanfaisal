@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Hi%2C+I'm+Aliyan+Faisal+%F0%9F%91%8B;Applied+ML+%7C+AI+Systems+%7C+Full-Stack+Dev" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Hi%2C+I'm+Aliyan+Faisal+%F0%9F%91%8B;RAG+%7C+AI+Systems+%7C+Full-Stack+Dev" alt="Typing SVG" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1200&color=888888&center=true&vCenter=true&width=700&lines=Full-Stack+Web+Developer+%7C+Laravel+%7C+Django+%7C+WordPress;AI+Systems+Integrator+%7C+OpenAI+%7C+Gemini+%7C+Claude;Building+real-world+systems+powered+by+AI" alt="Subtitle" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1200&color=888888&center=true&vCenter=true&width=700&lines=Retrieval-Augmented+Generation+%7C+Embeddings+%7C+Vector+Search;Full-Stack+Web+Developer+%7C+Laravel+%7C+Django+%7C+WordPress;AI+Systems+Integrator+%7C+OpenAI+%7C+Gemini+%7C+Claude;Building+real-world+systems+powered+by+AI" alt="Subtitle" />
 
 <br/><br/>
 
@@ -19,15 +19,66 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Full-Stack Developer & AI Systems Integrator** based in Pakistan. I've spent 5+ years building production-grade web systems — Laravel backends, custom WordPress solutions, RESTful APIs — and over time have gone deeper into the AI layer, integrating machine learning and LLM capabilities into the systems I build.
+I'm a **Full-Stack Developer & AI Systems Integrator** based in Pakistan. I've spent 5+ years building production-grade web systems (Laravel backends, custom WordPress solutions, RESTful APIs) and have gone deep into the AI layer, building **retrieval-augmented generation (RAG) pipelines** and LLM-powered features that sit inside real products.
 
-My work sits at the intersection of **solid web engineering and applied AI** — not just calling APIs, but architecting systems where AI actually adds value.
+My work sits at the intersection of **solid web engineering and applied AI**. I don't just call APIs; I design systems where retrieval, models and business logic work together reliably.
 
-- 🌐 Full-stack developer — **Laravel, PHP, Django, Flask, WordPress, RESTful APIs**
-- 🤖 AI integrations — **OpenAI, Gemini, Anthropic Claude** in production web systems
-- 📊 Data systems — dashboards, pipelines, analytics for real-world decision-making
+- 🔎 **RAG systems**: ingestion, chunking, embeddings, vector search, reranking, grounded answers with citations
+- 🤖 **LLM integrations**: OpenAI, Gemini and Anthropic Claude in production, with per-task model routing and cost tracking
+- 🌐 **Full-stack**: Laravel, PHP, Django, Flask, WordPress, RESTful APIs
+- 📊 **Data systems**: dashboards, pipelines and analytics for real-world decision-making
 - 🏛️ Built data infrastructure for the **Government of Gilgit-Baltistan** (P&D Dept.)
-- 🔬 Deepening expertise in **Applied Machine Learning** and data-driven automation
+
+---
+
+## 🔎 Featured: Retrieval-Augmented Generation (RAG)
+
+LLMs are only as useful as the knowledge they can reach. I build RAG systems that ground model answers in **your own data** (documents, knowledge bases, product catalogs, site content), so responses are accurate, current and traceable to a source instead of guessed.
+
+```mermaid
+flowchart LR
+    A[📄 Documents<br/>PDF · Web · DB · API] --> B[✂️ Chunking<br/>+ Metadata]
+    B --> C[🧮 Embeddings]
+    C --> D[(🗄️ Vector Store)]
+    Q[💬 User Question] --> E[🔍 Retriever<br/>Hybrid: Vector + Keyword]
+    D --> E
+    E --> F[🎯 Reranker]
+    F --> G[🧠 LLM<br/>OpenAI · Claude · Gemini]
+    G --> H[✅ Grounded Answer<br/>+ Citations]
+```
+
+### What I build
+
+| Layer | What it covers |
+|:---|:---|
+| **Ingestion** | Parsing PDFs, web pages, databases and APIs; cleaning and normalizing; incremental re-indexing |
+| **Chunking & metadata** | Structure-aware chunking, overlap tuning, metadata for filtering (source, date, category, tenant) |
+| **Embeddings & vector search** | Embedding model selection, vector stores, hybrid (semantic + keyword) retrieval, reranking |
+| **Generation** | Prompt design, grounded answers with citations, guardrails against unsupported claims |
+| **Routing & cost control** | Cheap models for simple steps, strong models only where needed; token and cost logging per job |
+| **Evaluation** | Retrieval quality checks, answer faithfulness, regression tests so changes don't silently break quality |
+
+### Where RAG fits in the systems I build
+
+- 💬 **Knowledge-base chatbots**: answer from your docs and cite the source
+- 🔗 **Semantic similarity & duplicate detection**: embeddings to find overlapping content before it hurts SEO
+- 🧩 **WordPress and Laravel integrations**: retrieval-backed features inside existing sites and dashboards
+- 🏢 **Multi-tenant setups**: one pipeline, separate knowledge per client or portal
+
+> 🚧 **Currently building:** a multi-provider AI content platform with a central dashboard, embeddings-based similarity and cannibalization checks, and per-task model routing with full cost logging.
+
+### RAG Stack
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7B3FE4?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI_Embeddings-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
 
 ---
 
@@ -54,6 +105,7 @@ My work sits at the intersection of **solid web engineering and applied AI** —
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -85,13 +137,13 @@ My work sits at the intersection of **solid web engineering and applied AI** —
 
 ## 🔥 Passionate About AI
 
-I genuinely believe AI is the most transformative technology of our time — and I'm not just following the trend. From integrating LLMs into production systems to exploring applied machine learning workflows, AI sits at the core of everything I build. My goal is to bridge the gap between cutting-edge AI research and real-world systems that solve actual problems. Every project I take on is an opportunity to push that boundary further.
+I believe AI is the most transformative technology of our time, and I care most about the part that makes it dependable: **grounding models in real data**. From RAG pipelines to LLMs integrated into production systems, my goal is to bridge cutting-edge AI research and real-world systems that solve actual problems.
 
 ---
 
 ## 🤝 Work With Me
 
-I'm available for freelance projects — AI integration, full-stack web development, custom WordPress solutions, and data systems.
+I'm available for freelance projects: **RAG and AI integration**, full-stack web development, custom WordPress solutions, and data systems.
 
 [![Fiverr](https://img.shields.io/badge/Hire_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://fiverr.com/aliyanfaisal)
 [![Upwork](https://img.shields.io/badge/Hire_on_Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01f763ee3322eda908)
@@ -99,5 +151,5 @@ I'm available for freelance projects — AI integration, full-stack web developm
 ---
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=aliyanfaisal&style=for-the-badge&color=4A90D9" alt="Profile Views"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=aliyanfaisal.aliyanfaisal&left_text=Profile%20Views&left_color=555555&right_color=4A90D9" alt="Profile Views"/>
 </div>
